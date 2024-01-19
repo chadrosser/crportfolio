@@ -5,10 +5,9 @@ import { IoMdContact } from "react-icons/io";
 
 
 
-
 export default function SideBar() {
     return (
-        <div className="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-gray-900 text-white shadow-lg">
+        <div className="items-center justify-between h-0 w-2/6 m-0 flex flex-row bg-gray-900 text-white shadow-lg">
             <a href = "/"><SideBarIcon icon={<FaHome size="28" />} text={"Home"} /></a>
             <Divider />
             <a href = "/about"><SideBarIcon icon={<GiGuitarBassHead size="28" />} text={"About Me"} /></a>
