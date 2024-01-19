@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex">
         <SideBar />
       </div>
-      <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
+      <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center p-12">
         <img
           class="my-6"
           src="/construction.jpg"
@@ -19,7 +19,4 @@ export default function Home() {
     </div>      
   );
 }
-
-
-// navbar -  career, education, resume?, contact, making of this site, 
 
