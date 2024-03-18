@@ -19,8 +19,6 @@
         text-white bg-gray-900 text-xs font-bold transition-all duration-100 scale-0 origin-left;
     }
     .sidebar-hr {
-        @apply bg-gray-200 dark:bg-gray-800 h-8
-        border border-gray-200 dark:border-gray-800 rounded-full
-        mx-2;
+        @apply  bg-gray-800 border border-gray-800 rounded-full mx-2;
       }
 }

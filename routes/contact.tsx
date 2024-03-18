@@ -6,6 +6,6 @@ export default function Contact() {
         <div className="flex">
           <SideBar />
         </div>
-      </div>      
+      </div>     
     );
   }

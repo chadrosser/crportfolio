@@ -9,13 +9,14 @@ export default function Home() {
       </div>
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center p-12">
         <img
-          class="my-6"
-          src="/construction.jpg"
-          width="500"
-          height="500"
-          alt="what"
+          src="/chademma.jpg"
+          width={400}
+          height={400}
+          alt="emmaandme"
+          className="rounded-full border-transparent"
         />
       </div>
+      <h2 className="text-center my-4 transition-[opacity] duration-[1300ms] ease-in-out delay-500 text-green-500">Hello! My name is Chad Rosser</h2>
     </div>      
   );
 }
